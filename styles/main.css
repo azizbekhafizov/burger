@@ -513,6 +513,7 @@
 }
 
 .from-card img{
+  border-radius: 15px;
   margin-bottom: 15px;
 }
 .from-card h3{
@@ -570,6 +571,7 @@
 
 .based-l-img{
   flex-direction: column;
+  margin: auto;
   width: 400px;
 }
 .based-l p{

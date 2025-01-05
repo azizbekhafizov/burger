@@ -1,5 +1,9 @@
 /* Responsive qism boshlandi  */
 
+html{
+    overflow-x: hidden;
+}
+
 @media (max-width:1435px){
     .head{
         margin-left: 250px;
@@ -70,6 +74,33 @@
           margin-top: 150px;
           justify-content: center;
       }
+
+      .from-wrapper{
+        margin-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+      }
+
+      .from-card {
+        width: 340px;
+        height: 445px;
+      }
+
+      .from-card img{
+        width: 100%;
+      }
+
+      .from-card h3{
+        width: 300px;
+      }
+
+      .based-r p{
+  width: 300px;
+  font-size: 14px;
+  line-height: 20px;
+      }
 }
 
 @media (max-width:1024px){
@@ -91,6 +122,22 @@
         width: 600px;
         height: 300px;
       }
+
+      .testiminal-top p{
+        color: white;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        font-family: Nunito;
+        text-align: center;
+        width: 700px;
+        font-family: Nunito;
+        margin:40px auto;
+      }
+
+      .subscribe-section{
+        flex-direction: column;
+      }
 }
 
 @media (max-width:860px){
@@ -100,6 +147,26 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-left{
+        margin: auto;
+    }
+
+    .footer-middle{
+        justify-content: center;
+        margin: auto;
+    }
+
+    .footer-right{
+        margin: auto;
     }
 }
 
@@ -135,8 +202,9 @@
  
  .head button{
   margin: 50px auto;
-
  }
+
+
 
  .fresh .fresh-card1 {
     border-radius: 20px;
@@ -156,6 +224,54 @@
     height: 300px;
     background-image: url(../images/fresh1.png);
   }
+
+  .testiminal-top p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Nunito;
+    text-align: center;
+    width: 450px;
+    font-family: Nunito;
+    margin:40px auto;
+  }
+
+  .testimal-wrapper{
+    flex-wrap: wrap;
+  }
+
+  .based{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe-section h2{
+    font-size: 25px;
+    line-height: 25px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .subscribe-section p{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .subscribe-form input[type="email"] {
+    padding: 15px;
+    width: 350px;
+    background: transparent;
+  }
+
+  .subscribe-form{
+    flex-direction: column;
+  }
+  .subscribe-form button{
+    width: 90%;
+  }
+
 }
 
 
@@ -205,4 +321,72 @@
         text-align: center;
       }
 
+
+      .testiminal-top p{
+        color: white;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+        font-family: Nunito;
+        text-align: center;
+        width: 320px;
+        font-family: Nunito;
+        margin:40px auto;
+      }
+
+      .based{
+        width: 350px;
+        overflow-x: hidden;
+      }
+
+      .based-l h1{
+        width: 200px;
+        margin: auto;
+      }
+
+      .based-l-img{
+        width: 300px;
+        margin: auto;
+        justify-content: center;
+      }
+
+      .based-l-img img{
+        flex-direction: column;
+        /* width: 80%; */
+        width: 300px;
+
+      }
+
+      .based-l p{
+        width: 150px;
+        line-height: 20px;
+        margin: auto;
+      }
+
+
+      .subscribe-section h2{
+        font-size: 20px;
+        line-height: 20px;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+      }
+    
+      .subscribe-section p{
+        width: 250px;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      .subscribe-form input[type="email"] {
+        padding: 15px;
+        width:300px;
+        background: transparent;
+      }
+      .subscribe-form button{
+        width: 80%;
+        height: 40px;
+      }
+
 }
+
+
