@@ -1,0 +1,93 @@
+.header {
+    overflow-x: hidden;
+    width: 100%;
+    border-top: 4px solid var(--main_color);
+    padding: 15px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left_head {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .left_head h1 {
+    font-size: 24px;
+    font-family: Fugaz One;
+    color: rgba(238, 58, 67, 1);
+    line-height: 26px;
+    font-weight: 400;
+  }
+  
+  .right_head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .right_head .navlinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .navlinks .link a {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: Oswald;
+    padding: 5px;
+    position: relative;
+    color: rgba(33, 33, 33, 1);
+  }
+  
+  .navlinks .link:hover a {
+    color: var(--main_color);
+    border-bottom: 2px solid var(--main_color);
+  }
+  
+  .menu_icon {
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .left_head {
+      flex-direction: column;
+    }
+    .left_head h1 {
+      font-size: 1.2rem;
+    }
+    .right_head .navlinks {
+      gap: 5px;
+    }
+    .navlinks .link a {
+      font-size: 14px;
+      padding: 3px;
+    }
+    .right_head .button-link button {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .left_head {
+      flex-direction: row;
+    }
+    .right_head {
+      display: none;
+    }
+    .menu_icon {
+      display: block;
+    }
+  }
