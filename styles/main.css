@@ -647,7 +647,7 @@
   padding: 15px;
   width: 500px;
   background: transparent;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 25px;
   outline: none;
   font-size: 12px;
@@ -655,6 +655,7 @@
 
 .subscribe-form input::placeholder{
   color: white;
+  font-family: Nunito;
 }
 
 .subscribe-form button {
@@ -679,7 +680,7 @@
   background-color: #F5F8FD;
   padding: 50px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   position: relative;
 }
@@ -712,9 +713,11 @@
 }
 
 .footer-middle h3 {
-  font-size: 1.2em;
+  font-size: 20px;
   margin-bottom: 15px;
-  font-family: Barlow;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: Fredoka;
   color: black;
   position: relative;
 }
@@ -759,7 +762,20 @@
 }
 
 .footer-right h3{
-  font-family: Barlow;
+  font-family: Fredoka;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 23px;
+
+}
+.footer-right p{
+  margin-top: 25px;
+  width: 360px;
+  font-family: Fredoka;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 23px;
 
 }
 
@@ -767,13 +783,15 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 25px;
+  margin-bottom: 15px;
   outline: none;
   font-size: 1em;
   width: 250px;
 }
 
 .footer-right button {
-  padding: 10px 20px;
+  width: 160px;
+  height: 60px;
   border: none;
   border-radius: 25px;
   background-color: #F3274C;

@@ -17,8 +17,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
+
+    <div id="loading">
+      <div class="spinner"></div>
+    </div>
+  
+    <div id="content" style="display: none;">
+    </div>
+
     <div class="sidebar">
       <div class="sidebar_icon">
         <i class="fa-solid fa-x"></i>
@@ -44,7 +53,7 @@
       </div>
     </div>
 
-    <header class="header">
+    <header  class="header">
       <div class="navbar container">
         <div class="left_head">
           <img src="./images/Logo-Pizza-Hut 2.png" alt="" />
@@ -94,7 +103,7 @@
       <button>ORDER NOW</button>
     </div>
 
-    <div class="offers container">
+    <div  data-aos="zoom-in"  class="offers container">
       <h1>Top Offers This Week</h1>
       <div class="offers-wrapper">
         <img class="sdf" src="./images/offerse-left.png" alt="" />
@@ -125,11 +134,11 @@
       </div>
     </div>
 
-    <div class="grid-wrap">
+    <div  class="grid-wrap">
       <div class="grid-top">
         <h1>Farm Fresh Products</h1>
       </div>
-      <div class="grid-container">
+      <div  data-aos="zoom-in-right" class="grid-container">
         <div class="card">
           <img src="./images/farm1.png" alt="Green Broccoli" />
           <div class="card-content">
@@ -272,7 +281,7 @@
       </div>
     </div>
 
-    <div class="what container">
+    <div  class="what container">
       <div class="what-left">
         <button>
           <img src="./images/icon6-3.png.png" alt="" /> Authenticity
@@ -327,7 +336,7 @@
       </div>
     </div>
 
-    <section class="treding">
+    <section  data-aos="zoom-out-right" class="treding">
       <div class="treding-top">
         <h1>Top Trending</h1>
       </div>
@@ -542,12 +551,13 @@
       </div>
     </div>
 
-    <div class="from">
+    <div  class="from">
       <div class="from-top">
         <p>Latest News</p>
         <h1>From Our Blog</h1>
       </div>
-      <div class="from-wrapper">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom" class="from-wrapper">
         <div class="from-card">
           <img src="./images/from1.png" alt="">
           <span> <i class="fa-regular fa-user"></i> By admin</span>
@@ -617,8 +627,10 @@
   </div>
 
 
-  <footer  class="container">
-    <div class="footer ">
+  <footer >
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="footer">
       <div class="footer-left">
           <h2>pizza hut</h2>
           <p>Tuesday – Saturday: 12:00pm – 23:00pm</p>
@@ -659,5 +671,9 @@
   </div>
   </footer>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
