@@ -55,6 +55,11 @@
   gap: 25px;
 }
 
+.offers-card:hover{
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .offers h1 {
   font-family: Barlow;
   line-height: 40px;
@@ -178,6 +183,7 @@
 
 .card-icon {
   margin-top: 15px;
+  color: #C3C3C3;
 }
 
 .what {
@@ -339,6 +345,7 @@
 }
 .fresh .fresh-card2:hover{
   transform: scale(1.03);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .fresh .fresh-card2 {
   border-radius: 20px;
@@ -414,6 +421,11 @@
   display: flex;
   align-items: center;
   gap: 25px;
+}
+
+.treding-card:hover{
+  transform: scale(1.03);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .treding-card .treding-icon {
@@ -523,6 +535,10 @@
 .from-card {
   width: 406px;
   height: 495px;
+}
+
+.from-card:hover{
+  transform: scale(1.03);
 }
 
 .from-card img{

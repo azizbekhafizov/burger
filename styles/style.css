@@ -20,6 +20,9 @@
   --bg-dark: rgba(37, 36, 32, 1);
 }
 
+button{
+  cursor: pointer;
+}
 
 #loading {
   position: fixed;
