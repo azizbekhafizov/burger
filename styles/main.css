@@ -211,6 +211,11 @@
   line-height: 40px;
   font-family: Nunito;
   margin-bottom: 15px;
+  transition: 0.5 ease;
+}
+
+.what-left button:hover{
+  transform: scale(1.02);
 }
 
 .what-right h1 {
@@ -326,6 +331,14 @@
   width: 625px;
   height: 345px;
   background-image: url(../images/fresh2.png);
+}
+
+.fresh .fresh-card1:hover{
+  transform: scale(1.03);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.fresh .fresh-card2:hover{
+  transform: scale(1.03);
 }
 .fresh .fresh-card2 {
   border-radius: 20px;
